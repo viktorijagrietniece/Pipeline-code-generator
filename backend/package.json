@@ -1,0 +1,14 @@
+{
+  "name": "pipeline-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "undici": "^7.10.0",
+    "cors": "^2.8.5"
+  }
+}
